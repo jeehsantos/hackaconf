@@ -24,6 +24,7 @@
  text-align: center;
  width: 76%;
  margin: auto;
+ transition: border-color 1s linear 1s;
 }
 .panel-speakers .speaker{
 	display: inline-block;
