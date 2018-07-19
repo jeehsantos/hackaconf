@@ -43,3 +43,21 @@
 .button-place{
 	text-align: center;
 }
+
+.move-up{
+   
+  float: right;
+  
+
+}
+
+.up-button{
+	font-weight: bold;
+	color: white;
+	background-color: black;
+	padding: 15px;
+	border-radius: 10px;
+	text-decoration: none;
+
+
+}

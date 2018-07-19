@@ -11,6 +11,7 @@ function ativaScrollSuave(selector) {
     });
 }
 
+ativaScrollSuave('a[href*=header]');
 ativaScrollSuave('a[href*=panel-about]');
 ativaScrollSuave('a[href*=panel-speakers]');
 ativaScrollSuave('a[href*=panel-form]');
