@@ -1,0 +1,77 @@
+.header{
+	background: url('../img/destaque.jpeg') no-repeat;
+	background-size: cover;
+	padding-top: 32px;
+}
+
+.header .main-menu{
+
+	text-align: center;
+}
+
+.header .main-menu .menu-item{
+	display: inline-block;
+	margin: 0 2px 32px 0;
+	 
+}
+
+.header .main-menu .menu-item a{
+  
+ 
+
+	padding: 10px 20px 10px 20px;
+	background-color: rgb(0, 0, 0, 0.1);
+	border-radius: 5px;
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;			
+    transition: background-color 0.5s;
+}
+
+.header .main-menu .menu-item a:hover{
+	background-color: #48A3A6;
+
+}
+
+.corpo{
+
+	width: 100%;
+	height: 100%;		
+	background: url('../img/destaque.jpeg') no-repeat;
+	background-size: cover;
+}
+
+.header .jumbotron{
+	text-align: center;
+	text-decoration: uppercase;
+	padding: 0 0 44px 0;
+}
+
+.header .main-panel{
+	color: white;
+	text-shadow: 4px 4px 10px black;
+}
+
+.header .jumbotron .title{
+	font-size: 3em;
+}
+.header .jumbotron .subtitle{
+	font-size: 2.6em;
+	margin-top: 8px;
+	color: #64FF64;
+}
+
+.header .jumbotron .subscribe-panel{
+	margin-top: 30px;
+}
+
+
+/* header.css */
+/* código anterior omitido */
+@media (min-width: 650px){
+
+	.header .jumbotron{
+		font-size: 28px;
+	}
+}
+ 
